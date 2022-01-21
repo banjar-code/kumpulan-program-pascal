@@ -5,6 +5,8 @@ Anda tidak boleh menggunakan repository ini sebagai jalan pintas tugas algoritma
 
 Anda boleh menggunakan repository ini hanya sebagai contoh saja, tidak untuk di ambil dan langsung di kumpulkan sebagai  tugas Anda.
 
+Jangan lupa tinggalkan jejak di kolom diskusi, Anda juga dapat saling berdiskusi pada kolom tersebut.
+
 Anda dapat memberikan support melalui:
 Paypal : <a href="https://paypal.me/panduancode?country.x=ID&locale.x=id_ID">Arif Noer Wahidin</a>
 Terima kasih.
