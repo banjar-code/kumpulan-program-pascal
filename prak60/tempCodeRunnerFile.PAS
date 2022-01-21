@@ -1,0 +1,1 @@
+gotoxy(2,20); writeln('Komentar');

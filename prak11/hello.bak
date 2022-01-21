@@ -1,0 +1,16 @@
+program hello;
+uses crt;
+var k:string;
+begin
+clrscr;
+    textcolor(15);
+    gotoxy(10,3); writeln('Hello Friend!');
+    textcolor(15);
+    gotoxy(97,3); writeln('Hello Friend!');
+    textcolor(15);
+    gotoxy(57,11); writeln('Hello Friend!');
+    textcolor(15);
+    gotoxy(10,22); writeln('Hello Friend!');
+    textcolor(15);
+    gotoxy(97,22); writeln('Hello Friend!');
+end.

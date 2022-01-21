@@ -1,0 +1,20 @@
+program AnalisisXVersi1;
+uses crt;
+    var x:integer;
+begin
+clrscr;
+    writeln('====================================');
+    writeln('PROGRAM ANALISIS ANGKA');
+    writeln('====================================');
+    write('Masukan Angka: '); readln(x);
+     if (x>0) and (x mod 2=0) then
+        writeln('Ini Bilangan Genap')
+        else if (x mod 1=0) then
+        writeln('Ini Bilangan Ganjil')
+        else if (x<0) and (x mod 1=0) then
+        writeln('Ini Bilangan Negatif')
+        else if (x=0) then
+        writeln('Ini Bilangan Nol');
+    writeln('====================================');
+    readln;
+end.

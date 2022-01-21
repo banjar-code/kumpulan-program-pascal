@@ -1,0 +1,1 @@
+x:=round((78-length(grs))/2); 

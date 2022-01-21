@@ -1,0 +1,15 @@
+program sapakabar;
+uses crt;
+var nama, kabar:string;
+begin
+    clrscr;
+    textcolor(red);
+    gotoxy(5,3); write('Nama:'); readln(nama);
+    textcolor(white);
+    gotoxy(97,3); write('Keadaan:'); readln(kabar);
+    textcolor(green);
+    gotoxy(5,22); writeln('hallo ',nama,',apa kabar?');
+    textcolor(blue);
+    gotoxy(97,22); writeln('Semoga kamu ',kabar, '!!!');
+exit;
+end;

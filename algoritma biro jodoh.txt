@@ -1,0 +1,32 @@
+Algoritma Program Biro Jodoh:
+-Membuat program cocoklogi jodoh dengan zodiak dan kalender weton.
+-faktor eksternal juga dihitung:
+	.berapa lama PDKT
+	.seberapa dekat
+	.finansial
+	.goodlooking/penampilan
+	.skill
+-Input yang diperlukan:
+	.nama lengkap Anda dan dia
+	.nomor whatsapp(opsional) dia
+	.hari lahir Anda dan dia
+	.tgl lahir Anda dan dia
+	.bulan lahir Anda dan dia
+	.tahun lahir Anda dan dia
+	.waktu pdkt
+	.kedekatan
+	.finansial Anda (jika laki-laki)
+	.penampilan
+	.skill
+-Proses:
+	.zodiak dan kalender weton diperoleh dari hari,tgl,bulan dan tahun.
+ 	.tentukan kecocokan zodiak dan weton
+	.hitung faktor eksternal masing-masing 20 point jika laki-laki, jika perempuan masing masing 25poin.
+	.hitung kecocokan zodiak, weton dan faktor eksternal untuk total nilai.
+-Output:
+	.Tampilkan Zodiak dan weton masing-masing
+	.Tampilkan analisis kecocokan zodiak dan weton
+	.Tampilkan analisis kecocokan faktor eksternal
+	.Tampilkan analisis total nilai kecocokan
+	.Tampilkan Pesan Segera Lamar dan munculkan nomor Whatsapp.
+

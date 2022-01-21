@@ -1,0 +1,25 @@
+program hitungjarak;
+uses crt;
+var s1,s2,s3,v1,v2,v3,t1,t2,t3,r:real;
+begin
+clrscr;
+    writeln('=====================================');
+    writeln('PROGRAM HITUNG JARAK');
+    writeln('=====================================');
+    write('Masukan Nilai Kecepatan 1:'); readln(v1);   
+    write('Masukan Nilai Waktu Tempuh 1'); readln(t1);
+    write('Masukan Nilai Kecepatan 2:'); readln(v2);   
+    write('Masukan Nilai Waktu Tempuh 2'); readln(t2);
+    write('Masukan Nilai Kecepatan 3:'); readln(v3);   
+    write('Masukan Nilai Waktu Tempuh 3'); readln(t3);
+    s1:= v1*t1; s2:= v2*t2; s3:= v3*t3;
+    r:= (s1+s2+s3)/(t1+t2+t3);
+    writeln=('====================================');
+    writeln('Hasil Perhitungan Sebagai Berikut');
+    writeln('Jarak Tempuh 1: ',s1:3:0,'km');
+    writeln('Jarak Tempuh 2: ',s2:3:0,'km');
+    writeln('Jarak Tempuh 3: ',s3:3:0,'km');
+    writeln('Rata-rata Jarak Tempuh: ',r:3:0,'km/h');
+    writeln('=====================================');
+    readln
+end.

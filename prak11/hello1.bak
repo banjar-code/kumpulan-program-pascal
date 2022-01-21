@@ -1,0 +1,17 @@
+program hello;
+uses crt;
+var x:string;
+begin
+clrscr;
+x := ‘HELLO FRIEND !’;
+    textcolor(red);
+    gotoxy(10,3); writeln(x);
+    textcolor(white);
+    gotoxy(97,3); writeln(x);
+    textcolor(green);
+    gotoxy(55,11); writeln(x);
+    textcolor(brown);
+    gotoxy(10,22); writeln(x);
+    textcolor(blue);
+    gotoxy(97,22); writeln(x);
+end.
